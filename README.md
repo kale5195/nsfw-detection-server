@@ -1,4 +1,4 @@
-### Simple NSFW Detector
+### Simple NSFW Detectionon server side
 
 Modified based on [nsfwjs](https://github.com/infinitered/nsfwjs/) example
 
