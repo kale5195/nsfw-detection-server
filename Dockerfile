@@ -16,7 +16,6 @@ RUN npm install
 
 COPY . .
 
-ARG PORT
-ENV PORT ${PORT}
+EXPOSE 8080
 
 CMD ["npm", "start"]

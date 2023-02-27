@@ -1,0 +1,10 @@
+version: "3.9"
+
+services:
+  nsfw-server:
+    build: .
+    ports:
+      - 8099:8080
+    deploy:
+      restart_policy:
+        condition: on-failure
