@@ -18,3 +18,5 @@ COPY . .
 
 ARG PORT
 ENV PORT ${PORT}
+
+CMD ["npm", "start"]
